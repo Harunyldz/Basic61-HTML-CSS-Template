@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-y: scroll;
+}
+.clear {
+    display: block;
+    clear: both;
+    width: 100%;
+}
+.clear::after{
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
+
+/* ************************header section***************************** */
+
+.wrapper_row1 {
+    display: block;
+    background-color: #333333;
+    color: #c0bab6;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #333333;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header #header_sol {
+    float: left;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#header_sol h1 {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#header_sol h1 a {
+    text-decoration: none;
+    color: #c0bab6;
+}
+
+#header_sol h2 {
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+#header nav {
+
+    float: right;
+    padding: 20px 0;
+
+
+}
+
+#header nav ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#header nav li {
+    /* float: left; */
+    display: inline;
+    margin-right: 15px;
+    padding: 0;
+}
+
+#header nav .last_li {
+    margin-right: 0;
+}
+
+#header nav ul li a {
+    text-decoration: none;
+    color: #c0bab6;
+    text-transform: uppercase;
+}
+
+#header nav ul li a:hover {
+    color: #ff9900;
+}
+
+/* *********************container *********************** */
+.wrapper_row2 {
+    display: block;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #979797;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper_row2 .left_column a {
+    text-decoration: none;
+    color: #ff9900;
+}
+
+.wrapper_row2 .a_more {
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: bold;
+    font-size: smaller;
+   
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    display: block;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.left_column {
+    width: 630px;
+    float: left;
+}
+
+.section_one {
+    font-weight: normal;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.section_one h1 {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+.section_two {
+    display: block;
+    padding: 0;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section_two_left {
+    width: 300px;
+    float: left;
+    display: block;
+
+}
+
+.section_two figure {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.section_two img {
+    border: 1px solid #333333;
+    padding: 4px;
+    margin: 0 10px 3px 0;
+}
+
+.section_two figcaption {
+    display: none;
+}
+
+.section_two h2 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section_two address,
+time {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+.section_two_left q {
+    display: block;
+    font-style: italic;
+    line-height: normal;
+    padding: 0 10px 8px 10px;
+    background-color: #ececec;
+    color: #979797
+}
+
+.section_two_left q::before {
+    content: '� ';
+    font-size: 26px;
+}
+
+.section_two_left q::after {
+    content: ' �';
+    font-size: 26px;
+    line-height: 0;
+}
+
+.section_two_right {
+    width: 300px;
+    float: right;
+    display: block;
+}
+.section_three{
+    padding: 0;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    display: block;
+    font-size: 13px;
+}
+
+.section_three h1{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/********************************right column *********************** */
+
+
+.right_column{
+    float: right;
+    display: block;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+} 
+
+.right_column h2{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 24px;
+    font-style: normal;
+    margin: 0 0 20px 0;
+    padding: 0;
+    color: #666666;
+    background-color: #f9f9f9;
+}
+
+.right_column nav{
+    margin: 0 0 30px 0;
+    padding: 0;
+    display: block;
+    width: 300px;  
+}
+
+.right_column nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.right_column nav ul li{
+    margin: 0 0 3px 0;
+    padding: 0;  
+}
+.right_column nav ul ul,
+.right_column nav ul ul ul
+{
+    border-top: none;
+    padding-top: 0;
+}
+
+.right_column nav ul li a {
+    display: block;
+    margin: 0;
+    padding: 5px 10px 5px 20px;
+    color:#666666;
+    background: url(/orange_file.gif) no-repeat 10px center #f9f9f9;
+    text-decoration: none;
+    border-bottom: 1px dotted #666666;
+} 
+.right_column nav a:hover{
+    color: #ff9900;
+    background-color: #f9f9f9;
+}
+.right_column nav ul ul a{
+    background: url(/black_file.gif) no-repeat  #f9f9f9;
+}
+.right_column nav ul ul a{
+    padding-left: 40px;
+    background-position:30px center ;
+}
+.right_column nav ul ul ul a{
+    padding-left: 50px;
+    background-position:40px center ;
+}
+
+
+
+/* **************footer section************* */
+
+.wrapper_row3 {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #c0bab6;
+}
+
+.footer {
+    display: block;
+    margin: auto;
+    width: 960px;
+    overflow: hidden;
+    color: #ffffff;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    padding: 0;
+}
+
+#footer_left {
+    float: left;
+}
+
+#footer_right {
+    float: right;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+}
+.footer p{
+    padding: 20px 0;
+    margin: 0;
+}
